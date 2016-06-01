@@ -715,7 +715,7 @@ module.exports = function() {
 
     // Defer because the caller likely doesn't expect the callback to be run
     // immediately.
-    if (callback)
+  //  if (callback)
     //   Meteor.defer(function () {
     //    callback(null, id);
     //   });
